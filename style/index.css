@@ -1,1 +1,166 @@
 /* Add CSS styling here */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   CSS RESET
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box; /*when I give an item a width I want padding and margin to be applied within that width not in addition to it*/
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+/*General Styles*/
+
+html {
+    font-size:62.5%;
+}
+
+body {
+    font-size:1.6rem;
+    line-height:1.5;
+    background-color: #FBFFFB;
+    color:#4f4f4f; 
+    background-image: url(/img/paperBackground.jpg);
+}
+
+/* h1 {
+    font-size:5rem;
+    color: #FBFFFB;
+}
+
+h2 {
+    font-size:3rem;
+    text-align:center;
+}
+
+h3 {
+    font-size:2.5rem;
+    text-align:center;
+} */
+
+* {
+    box-sizing: border-box; /*when I give an item a width I want padding and margin to be applied within that width not in addition to it*/
+    padding:0;
+    margin:0;
+    max-width:100%;
+    border:1px solid grey;
+}
+
+/* header */
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     width: 100%;
+     z-index: 999;
+ }
+
+ h1 {
+     font-size: 4rem;
+     margin-left: 1%;
+     font-family: 'Indie Flower', cursive;
+     color: #000000;
+ }
+
+ .links {
+     width: 40%;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+     font-size: 2rem;
+     text-align: center;
+     margin-right: 1%;
+     font-family: 'Indie Flower', cursive;
+     
+ }
+
+ a {
+    width: 50%;
+    text-decoration: none;
+    border: 3px solid #ff3d3d;
+    border-radius: 3px;
+    background-color: #54beff;
+    color: #ffffff;
+ }
+
+ /* next section */
+
+.top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1%;
+ }
+
+ .large {
+     display: block;
+     margin: 0 auto;
+ }
+
+ button {
+     position: absolute;
+     bottom: -50%;
+     width: 50%;
+     height: 50%;
+     font-size: 4rem;
+     font-family: 'Indie Flower', cursive;
+ }
+
+ .largeText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+}
+
+h2 {
+    font-size: 8rem;
+    color: #FBFFFB;
+    font-family: 'Indie Flower', cursive;
+ } 
