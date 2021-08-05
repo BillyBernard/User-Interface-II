@@ -44,12 +44,12 @@ table {
 	border-spacing: 0;
 }
 
-* {
+  *{
     box-sizing: border-box; /*when I give an item a width I want padding and margin to be applied within that width not in addition to it*/
     padding:0;
     margin:0;
     max-width:100%;
-    border:1px solid grey;
+    /* border:1px solid grey; */
 }
 
 /*General Styles*/
@@ -80,14 +80,6 @@ h3 {
     font-size:2.5rem;
     text-align:center;
 } */
-
-* {
-    box-sizing: border-box; /*when I give an item a width I want padding and margin to be applied within that width not in addition to it*/
-    padding:0;
-    margin:0;
-    max-width:100%;
-    border:1px solid grey;
-}
 
 /* header */
 
@@ -126,7 +118,11 @@ h3 {
     color: #ffffff;
  }
 
- /* next section */
+ a:hover {
+     color: #C6E807;
+ }
+
+ /* top section */
 
 .top {
     width: 100%;
@@ -137,17 +133,26 @@ h3 {
  }
 
  .large {
-     display: block;
-     margin: 0 auto;
+     display: flex;
  }
 
  button {
      position: absolute;
      bottom: -50%;
+     left:23%;
      width: 50%;
      height: 50%;
      font-size: 4rem;
      font-family: 'Indie Flower', cursive;
+     background-color: transparent;
+     border: 2px solid #ffffff;
+     color: #ffffff;
+ }
+
+ button:hover {
+     background-color: #54beff;
+     border: none;
+     color: #ff3d3d;
  }
 
  .largeText {
@@ -155,7 +160,7 @@ h3 {
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 30%;
 }
 
@@ -164,3 +169,32 @@ h2 {
     color: #FBFFFB;
     font-family: 'Indie Flower', cursive;
  } 
+
+ /* mid section */
+
+ .first {
+     display: flex;
+ }
+
+ .topThree img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 3%;
+ }
+
+ .wordsTop {
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+ }
+
+ .wordsTop h3 {
+    font-size: 4rem;
+ }
+
+ 
+
+
+ 
