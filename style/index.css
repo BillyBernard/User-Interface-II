@@ -208,7 +208,7 @@ h2 {
  /* media queries */
 
 
-@media (max-width: 800px){
+@media (max-width: 800px) {
     nav {
         flex-wrap: wrap;
     }
@@ -390,7 +390,6 @@ h2 {
         bottom: -64%;
         width: 40%;
      }
-
 }
 
 
