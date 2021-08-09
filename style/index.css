@@ -234,6 +234,16 @@ h2 {
     border: 3px solid #C6E807;
  }
 
+ /* media queries */
+
+ @media (max-width: 800px){
+
+ }
+
+@media (max-width: 500px){
+    
+}
+
 
 
  
