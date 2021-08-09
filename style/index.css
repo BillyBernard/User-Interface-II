@@ -346,12 +346,48 @@ h2 {
         margin-bottom: 25%
     } 
 
-    h3 {
+    .wordsTop h3 {
         position: absolute;
     }
 
+    .aknosom {
+        bottom: 5%;
+        left: 18%;
+    }
+
+    .arzuros {
+        bottom: -20%;
+        left: 18%;
+    }
+
+    .barioth {
+        bottom: -44%;
+        left: 18%;
+        padding-bottom: 1%;
+    }
+
+    .wordsBottom h3 {
+        position: absolute;
+    }
+
+    .magnamalo {
+        bottom:4%;
+        right: 18%;
+    }
+
+    .rathalos {
+        bottom: -21%;
+        right: 18%;
+    }
+
+    .tobi {
+        bottom: -44%;
+        right: 16%;
+        padding-bottom: 1%;
+    }
+
     .navFooter a {
-        bottom: -60%;
+        bottom: -64%;
         width: 40%;
      }
 
